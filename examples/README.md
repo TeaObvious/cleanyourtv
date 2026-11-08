@@ -473,6 +473,7 @@ on that firmware, grouped and commented. These are starting points: comment out 
 
 Notes for models that have no tested list yet live in [`docs/devices/`](../docs/devices/):
 
+- [Epson EF-22N (HB38B)](../docs/devices/epson-ef22n.md) (owner-identified projector; Android module `HB35` / `SMFR3`, SDMC `himalaya`, MediaTek `m7332`, Google TV on Android 14 `UKNV.260904.001`): one-session native Home handover after moving saved Wi-Fi away from setupwraith, projector/firmware-update packages retained, physical autofocus/Home/YouTube/held-volume checks, and a reverted Prime-to-Plex remap; no several-day debloat list.
 - [Xiaomi F Pro L55MB-FPEU](../docs/devices/xiaomi-l55mb-fpeu.md) (`AFTBR92D74`, `ginzaeu`, Fire OS 8.1.8.5 / Android 11, `RS8185.3885N`): initial one-session report; 20 packages remain disabled after reboot, five ad packages return, Amazon Music and satellite TV retained; no several-day list yet.
 - [Magcubic HY320 Pro](../docs/devices/magcubic-hy320-pro.md) (Android 14 / SDK 34, `Projector_20260713.153921`): APK/Home observations, stock projector controls kept, and separately maintained helper-free launcher source; no tested disable list.
 - [Skyworth / Coocaa K3 (创维/酷开 K3)](../docs/devices/skyworth-7t634-p3h.md), `7T634_P3H`, Android 13, `eng.www-da.20260902.162554`: locally built v3.1.0 launcher with external Home/boot helpers, physical Home and one reboot verified, Coocaa Inputs-list configuration and helper-side continuous-volume troubleshooting; no tested debloat list.
